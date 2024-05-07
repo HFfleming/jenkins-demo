@@ -3,8 +3,6 @@ kind: Deployment
 metadata:
   name: jenkins-demo
   namespace: default
-  labels:
-    virtual-kubelet.io/burst-to-cci: enforce
 spec:
   selector:
     matchLabels:
